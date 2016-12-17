@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
 
 # NFC config
 PRODUCT_PACKAGES += \
-    nfc_nci.sirius
+    nfc_nci.pn54x.default
 
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
