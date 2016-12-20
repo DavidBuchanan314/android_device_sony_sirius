@@ -27,3 +27,5 @@ BOARD_KERNEL_CMDLINE += androidboot.hardware=sirius
 PRODUCT_VENDOR_KERNEL_HEADERS += $(DEVICE_PATH)/kernel-headers
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/max1187x/wakeup_gesture"
+
+TARGET_OTA_ASSERT_DEVICE := D6503,sirius
